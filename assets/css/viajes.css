@@ -1,0 +1,75 @@
+.seccion_carrusel img {
+    width: 50px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 
+    0px; /* Espacio entre la imagen y el resto del contenido del seccion_carrusel */
+  }
+  .seccion_carrusel {
+    position: relative; /* Establecer posición relativa para alinear el contenido en el seccion_carrusel */
+    padding: 10px; /* Espaciado interno */
+    overflow: hidden; /* Ocultar el contenido fuera del seccion_carrusel */
+  }
+  
+  .background-image {
+    position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegurar que la imagen de fondo cubra todo el seccion_carrusel */
+    height: 100%;
+    z-index: -1; /* Colocar la imagen detrás del contenido del seccion_carrusel */
+  }
+  
+  .seccion_carrusel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  i{
+    background-color: aqua;
+
+  }
+  
+  .seccion_carrusel ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .seccion_carrusel ul li a {
+    text-decoration: none;
+    color: white; /* Color de texto */
+  }
+  h3{
+    text-align: center;
+  }
+  
+  #Mis-trabajos{
+    background-color: black;
+    color: white;
+  }
+  .card-body{
+    background-color: black;
+  }
+  #Acerca-de-mi{
+    background-color: black;
+  }
+  #Mis-trabajos .image-top{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card1{
+    background-image: url(../img/card1.jpg);
+}
+#card2{
+    background-image: url(../img/card2.jpg);
+}
+#card3{
+    background-image: url(../img/card3.jpg);
+}
+#card4{
+    background-image: url(../img/card4.jpg);
+}
+.contacto{
+    background-color: black;
+}
