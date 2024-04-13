@@ -12,19 +12,18 @@
     <script src="https://kit.fontawesome.com/7ceea89335.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <section>
         
         
-        <section
-            class="seccion_carrusel ">
+        <section class="seccion_carrusel py-5 bg-black">
             <nav class="navbar navbar-expand-lg  fixed-top">
-                <div class="container">
-                    <img src="assets/img/viajes.svg" alt="logo">
-                    <p id="titulo" class="navbar-brand text-light text-center">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">
+                        <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
                         Viajes Chile
-                    </p>
+                      </a>
                     <button class="navbar-toggler" type="button" data-bs.toggle="collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+                        aria-controls="navbarSu pportedContent" aria-expanded="false" aria-label="toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,9 +65,9 @@
                   <span class="visually-hidden">Next</span>
                 </button>
         </section>
-    </header>
-    <section id="Acerca-de-mi" class="container text-center my-5 my-4 d-none d-md-block">
-        <h2 class="display-3 fw-bold my-4 text-light">¿Quiénes Somos?</h2>
+    </section>
+    <section id="Acerca-de-mi" class="pt-5 d-none d-sm-none d-md-block bg-black">
+        <h2 class="display-3 my-4 text-light text-center">¿Quiénes Somos?</h2>
        
         <div class="row">
             <div class="col-12 col-md-4">
@@ -82,7 +81,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-4">
-                <i class="fa-solid fa-mountain fa-3x my-3"></i>
+                
                 <p class="my-3 text-light">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Etiam a mauris id purus blandit dapibus.
@@ -91,6 +90,7 @@
                     suscipit beatae quidem accusantium eligendi quaerat.
                      Placeat, non facere?
                 </p>
+                <i class="fa-solid fa-mountain fa-3x my-3"></i>
             </div>
             <div class="col-12 col-md-4">
                 <i class="fa-solid fa-route fa-3x my-3"></i>
@@ -108,24 +108,24 @@
     </section>
     <section id="Mis-trabajos" class="my-5 p-5 ">
 
-        <h3 class="display-4 fw-bold text-center text-light mb-3">Destacados</h3>
+        <h3 class="display-4 text-center text-light mb-3">Destacados</h3>
 
         <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+            <div class="col-3 py-2">
+                <div class="card ">
                     <div class="image-top" id="card1"></div>
-                    <div class="card-body">
-                        <p class="card-text text-light">
+                    <div class="card-body bg-info">
+                        <p class="card-text text-light ">
                             Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
                         </p>
                        
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-3 py-2">
                 <div class="card">
                     <div class="image-top" id="card2"></div>
-                    <div class="card-body">
+                    <div class="card-body bg-info">
                         <p class="card-text text-light">
                             Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.
                         </p>
@@ -133,10 +133,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-3 py-2">
                 <div class="card">
                     <div class="image-top" id="card3"></div>
-                    <div class="card-body">
+                    <div class="card-body bg-info">
                         <p class="card-text text-light">
                             Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.
                         </p>
@@ -144,10 +144,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-3 py-2">
                 <div class="card">
                     <div class="image-top" id="card4"></div>
-                    <div class="card-body">
+                    <div class="card-body bg-info">
                         <p class="card-text text-light">
                             Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.
                         </p>
@@ -159,33 +159,41 @@
 
     </section>
 
-    <section id="Contacto" class="container my-5">
-        <h2 class="display-4 fw-light text-center my-4">CONTACTO</h2>
+    <section id="Contacto" class="py-5 bg-black">
+        <h3 class="display-4  text-center text-light my-4">CONTACTO</h3>
         <p class="text-center my-4 d-none d-md-block">
            
         </p>
-        <form>
+        <form class="formulario">
             <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
+                <label class="mb-2 text-light">Nombre</label>
                 <input class="form-control" placeholder="">
             </div>
             <div class="form-group mb-4">
-                <label class="mb-2">Asunto</label>
+                <label class="mb-2 text-light">Asunto</label>
                 <input class="form-control" placeholder="">
             </div>
             <div class="form-group mb-4">
-                <label class="mb-4">Mensaje</label>
-                <input class="form-control" placeholder="">
+                <label class="mb-4 text-light">Mensaje</label>
+                <input class="form-control form-control-xl" placeholder="">
             </div>
             <div class="my-3 text-star">
                 <button class="btn btn-info text-light">Enviar</button>
             </div>
         </form>
     </section>
-    <footer class="bg-dark text-left text-light p-4">
-        <p class="mb-0">
-            VIAJES CHILE
-        </p>
+    <footer class="bg-info  text-light p-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="mb-0 text-left">
+                VIAJES CHILE
+            </p>
+            <div>
+                <i class="fa-brands fa-github fa-3x my-3"></i>
+                <i class="fa-brands fa-linkedin fa-3x my-3"></i>
+                <i class="fa-brands fa-twitter fa-3x my-3"></i>
+                <i class="fa-brands fa-facebook fa-3x my-3"></i>
+            </div>
+        </div>
 
     </footer>
 

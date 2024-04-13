@@ -53,7 +53,7 @@
     background-color: black;
   }
   #Mis-trabajos .image-top{
-    height: 250px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,6 +70,15 @@
 #card4{
     background-image: url(../img/card4.jpg);
 }
-.contacto{
+#contacto{
     background-color: black;
+}
+.formulario{
+    background-color: black;
+}
+.bg-black {
+    background-color: black;
+  }
+i{
+    align-items: center;
 }
